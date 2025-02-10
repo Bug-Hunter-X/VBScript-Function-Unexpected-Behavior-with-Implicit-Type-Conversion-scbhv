@@ -1,0 +1,3 @@
+This repository contains a VBScript function that exhibits unexpected behavior due to implicit type conversion. The function f(x) divides x by 2 if x > 10, and multiplies x by 2 otherwise. However, depending on the input type of x, the function may produce incorrect results.
+
+The bug.vbs file demonstrates the issue. The bugSolution.vbs file provides a corrected version of the function, explicitly handling data types to avoid the unexpected behavior.
